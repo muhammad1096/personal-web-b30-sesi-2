@@ -1,0 +1,236 @@
+* 
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+    }
+
+    h2 {
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        text-align: center;
+    }
+body {
+   background-color: rgb(233, 230, 227);
+   color: black;
+}
+
+nav {
+    background-color: rgb(219, 115, 115);
+    display: flex;
+    height: 7vh;
+    color: whitesmoke;
+}
+
+nav .left {
+    /* background-color: brown; */
+    /* width: 50%; */
+    flex: 60%;
+    padding-left: 90px;
+    display: flex;
+    align-items: center;
+    color: whitesmoke ;
+}
+
+
+nav .left li {
+    display: inline;
+    color: whitesmoke;
+}
+nav .left a{
+    padding: 25px 12px;
+    color: rgb(7, 5, 5);
+}
+nav .left ul li a {
+    text-decoration: none;
+    color: rgb(19, 11, 11);
+    padding: 12px;
+}
+
+nav .left ul li a:hover{
+    background-color: rgb(190, 70, 26);}
+    
+nav .right {
+    /* background-color: blueviolet; */
+    /* width: 50%; */
+    flex: 50%;
+    display: flex;
+    padding: 10px;
+    justify-content: right;
+    align-items: center;
+    padding-right: 80px;
+}
+
+nav .right a {
+    background-color: rgb(218, 110, 110);
+    color: rgb(10, 2, 2);
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+nav .right a:hover{
+    background-color: rgb(224, 137, 105);
+}
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.container .section {
+    /* background-color: brown; */
+    display: flex;
+    width: 85%;
+}
+.section .left{
+    flex: 45%;
+    text-align: center;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.container .section .left div{
+    border: 1px solid rgb(167, 155, 148);                              
+    padding: 0px 0px 0px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    background-color: rgb(231, 231, 230);
+    color: black;
+    text-align: center;
+}
+.container .section .left div ul li{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+    color: wheat;
+}
+.container .section .left div img{
+    width:62%; 
+    border-radius: 20px;
+    padding: 0px 0px opx 0px;
+    color: wheat;
+}
+.container .section .left div p{
+    margin-top: 15px;  
+    text-align: justify;
+    color:rgb(12, 10, 10);
+    margin-left: 60px;
+}
+
+.container .section .left div table{
+    margin-top: 15px; 
+    border: 1px solid black;
+    width:80%; 
+    text-align: center; 
+    border-collapse:collapse;
+    color: rgb(15, 12, 12);
+    margin: 30px;
+    margin-left: 60px;
+}
+
+.container .section .left div table td{
+    font-size: 13px;
+    margin-left: 30px;
+    text-align: center;
+   
+}
+.section .right{
+    flex: 65%;
+    padding-left: 80px;
+    text-align: justify;
+}
+
+.section .right .skill-container{
+    display: flex;
+}
+
+.section .right p{
+    margin-top: 10px;
+}
+
+.skill-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 30px;
+}
+
+.skill-container div{
+    margin: 10px;
+    margin-left: 0px;
+    flex: 1;
+}
+
+.skill-container div img{
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.skill-container div p{
+    padding-right: 15px;
+}
+
+.section .right .social-media{
+    display: flex;
+}
+
+.social-media div{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.social-media img{
+    width: 50px;
+    border-radius: 20px;
+}
+
+/*kontak html*/
+
+form {
+    width: 400px; 
+    margin: 80px auto;
+    font-weight: bold; 
+    font-size: 20px;
+    color: black;
+}
+
+input[type=text],input[type=email],input[type=number], select, textarea {
+    /*background-color:rgb(214, 214, 214);*/
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    margin: 15px 0;
+    color: black;
+}
+
+input[type=checkbox] {
+    margin: 10px 0 20px 0;
+    color: black;
+}
+
+button {
+    padding: 8px 30px; 
+    margin-top:10px; 
+    border-radius: 5px; 
+    background-color:rgb(199, 94, 81);
+    color:rgb(19, 5, 5);
+    border: none;
+    cursor:pointer;
+    font-size: 12px;
+    color: blanchedalmond;
+}

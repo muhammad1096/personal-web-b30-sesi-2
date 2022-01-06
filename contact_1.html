@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="style_1.css">
+        <script src="form.js"></script>
+    </head>
+
+    <body>
+
+        <!-- awal navbar -->
+        <nav> 
+
+            <div class="left">
+
+                <img src="assets/codinglife.jpg" alt="logo" width="
+            40px">
+                <ul>
+                    <li>
+                        <a href="index_1.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <a href="contact_1.html">Hubungi Kami</a>
+            </div>
+
+        </nav>
+        <!-- akhir navbar -->
+
+        <form>
+<h2>FORM PENDAFTARAN</h2>
+            <div>        
+                <label for="input-name" >Nama</label>
+                <input id="input-name" type="text">
+            </div>
+
+            <div>
+                <label for="input-email">Email</label>
+                <input id="input-email" type="email" class="email">
+            </div>
+
+            <div>
+                <label for="input-phone">Nomor telepon</label>
+                <input id="input-phone" type="number" >
+            </div>
+           <div>        
+                <label for="input-kerja" >pengalaman kerja</label>
+                <input id="input-kerja" type="text">
+
+            <div>
+                <div>
+                    <input type="checkbox" id="html" value="HTML">
+                    <label for="html">Developer</label>
+
+                    <input type="checkbox" id="css" value="CSS">
+                    <label for="css">IT support</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="input-subject">Posisi</label>
+                <select id="input-subject">
+                    <option value="">Admin</option>
+                    <option>It Support</option>
+                    <option>Developer IT</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="input-message">Kritik dan saran</label>
+                <textarea id="input-message"></textarea>
+            </div>
+
+            <button type="button" onclick="submitData()">Submit</button>
+        </form>
+
+        <!-- <script src="form.js"></script> -->
+
+    </body>
+</html>
