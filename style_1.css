@@ -18,12 +18,12 @@
         text-align: center;
     }
 body {
-   background-color: rgb(233, 230, 227);
+   background-color: rgb(245, 241, 237);
    color: black;
 }
 
 nav {
-    background-color: rgb(219, 115, 115);
+    background-color: rgb(226, 135, 135);
     display: flex;
     height: 7vh;
     color: whitesmoke;
@@ -55,7 +55,7 @@ nav .left ul li a {
 }
 
 nav .left ul li a:hover{
-    background-color: rgb(190, 70, 26);}
+    background-color: rgb(202, 118, 87);}
     
 nav .right {
     /* background-color: blueviolet; */
@@ -69,14 +69,14 @@ nav .right {
 }
 
 nav .right a {
-    background-color: rgb(218, 110, 110);
+    background-color: rgb(218, 136, 136);
     color: rgb(10, 2, 2);
     padding: 8px 12px;
     border-radius: 8px;
     text-decoration: none;
 }
 nav .right a:hover{
-    background-color: rgb(224, 137, 105);
+    background-color: rgb(218, 148, 123);
 }
 .container {
     height: 100vh;
@@ -120,7 +120,7 @@ nav .right a:hover{
     width:65%; 
     border-radius: 20px;
     padding: 0px 0px 0px 0px;
-    color: wheat;
+    color: rgb(235, 230, 223)35, 230, 223);
 }
 .container .section .left div p{
     margin-top: 15px;  
