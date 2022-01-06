@@ -138,6 +138,7 @@ nav .right a:hover{
     color: rgb(15, 12, 12);
     margin: 30px;
     margin-left: 60px;
+    padding: auto;
 }
 
 .container .section .left div table td{
