@@ -117,16 +117,17 @@ nav .right a:hover{
     color: wheat;
 }
 .container .section .left div img{
-     width: 62%;
+     width: 82%;
     border-radius: 20px;
     padding: 0px 0px 0px 0px;
     color: rgb(235, 230, 223)35, 230, 223;
 }
 .container .section .left div p{
-    margin-top: 15px;  
+    margin-top: 20px;  
     text-align: justify;
     color:rgb(12, 10, 10);
     margin-left: 60px;
+    padding: 0px 0px 0px 0px;
 }
 
 .container .section .left div table{
@@ -138,17 +139,18 @@ nav .right a:hover{
     color: rgb(15, 12, 12);
     margin: 30px;
     margin-left: 60px;
-    padding: auto;
+    padding: 0px 0px 0px 0px;
 }
 
 .container .section .left div table td{
     font-size: 13px;
     margin-left: 30px;
     text-align: center;
-   
+   width: 90px;
+   padding: 0px 0px 0px 0px;
 }
 .section .right{
-    flex: 65%;
+    flex: 70%;
     padding-left: 80px;
     text-align: justify;
 }
@@ -158,7 +160,7 @@ nav .right a:hover{
 }
 
 .section .right p{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .skill-container{
