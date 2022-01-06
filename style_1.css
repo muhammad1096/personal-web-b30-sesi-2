@@ -32,7 +32,7 @@ nav {
 nav .left {
     /* background-color: brown; */
     /* width: 50%; */
-    flex: 60%;
+    flex: 50%;
     padding-left: 90px;
     display: flex;
     align-items: center;
@@ -92,7 +92,7 @@ nav .right a:hover{
     width: 85%;
 }
 .section .left{
-    flex: 45%;
+    flex: 35%;
     text-align: center;
     margin: 10px 0;
     text-align: center;
@@ -117,7 +117,7 @@ nav .right a:hover{
     color: wheat;
 }
 .container .section .left div img{
-     width: 66%;
+     width: 62%;
     border-radius: 20px;
     padding: 0px 0px 0px 0px;
     color: rgb(235, 230, 223)35, 230, 223;
@@ -132,7 +132,7 @@ nav .right a:hover{
 .container .section .left div table{
     margin-top: 15px; 
     border: 1px solid black;
-    width:70%; 
+    width:68%; 
     text-align: center; 
     border-collapse:collapse;
     color: rgb(15, 12, 12);
