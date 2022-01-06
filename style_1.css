@@ -106,7 +106,7 @@ nav .right a:hover{
     background-color: rgb(231, 231, 230);
     color: black;
     text-align: center;
-    width:80%;
+    width:100%;
 }
 .container .section .left div ul li{
     display: flex;
@@ -117,7 +117,7 @@ nav .right a:hover{
     color: wheat;
 }
 .container .section .left div img{
-    width:66%; 
+    width:90%; 
     border-radius: 20px;
     padding: 0px 0px opx 0px;
     color: wheat;
