@@ -27,16 +27,19 @@ nav {
     display: flex;
     height: 7vh;
     color: whitesmoke;
+    padding: auto;
 }
 
 nav .left {
     /* background-color: brown; */
-    /* width: 50%; */
-    flex: 50%;
+    width: 50%; 
+    flex: 60%;
     padding-left: 90px;
     display: flex;
     align-items: center;
     color: whitesmoke ;
+    margin-bottom: 10px;  
+    
 }
 
 
@@ -47,16 +50,19 @@ nav .left li {
 nav .left a{
     padding: 25px 12px;
     color: rgb(7, 5, 5);
+    margin-bottom: 12px;
 }
 nav .left ul li a {
     text-decoration: none;
     color: rgb(19, 11, 11);
     padding: 12px;
+    margin-bottom: 12px;
 }
 
 nav .left ul li a:hover{
-    background-color: rgb(202, 118, 87);}
-    
+    background-color: rgb(202, 118, 87);
+    margin-bottom: 10px;
+}
 nav .right {
     /* background-color: blueviolet; */
     /* width: 50%; */
@@ -84,6 +90,7 @@ nav .right a:hover{
     align-items: center;
     justify-content: center;
     color: whitesmoke;
+    padding-bottom: 10px;
 }
 
 .container .section {
@@ -94,9 +101,10 @@ nav .right a:hover{
 .section .left{
     flex: 35%;
     text-align: center;
-    /* margin: 10px 0; */
+    margin: 40px 40px 40px 40px; 
     text-align: center;
-    padding-top: 15%;
+    
+    
 }
 
 .container .section .left div{
@@ -108,6 +116,7 @@ nav .right a:hover{
     color: black;
     text-align: center;
     
+    
 }
 .container .section .left div ul li{
     display: flex;
@@ -116,9 +125,12 @@ nav .right a:hover{
     font-weight: bold;
     text-align: center;
     color: wheat;
+    
 }
 .container .section .left div img{
-     width: 100%;
+     width: 300%;
+     height: 500px;
+       
     border-radius: 20px;
     padding: 0px 0px 0px 0px;
     color: rgb(235, 230, 223)35, 230, 223;
@@ -127,12 +139,12 @@ nav .right a:hover{
     margin-top: 20px;  
     text-align: justify;
     color:rgb(12, 10, 10);
-    margin-left: 60px;
-    padding: 0px 0px 0px 0px;
+    margin-left: 40px;
+    padding: 0px 0px 15px 0px;
 }
 
 .container .section .left div table{
-    margin-top: 15px; 
+    margin-top: 10px; 
     border: 1px solid black;
     width:68%; 
     text-align: center; 

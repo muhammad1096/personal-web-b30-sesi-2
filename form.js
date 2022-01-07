@@ -3,6 +3,7 @@ function submitData(){
     let name = document.getElementById('input-name').value
     let email = document.getElementById('input-email').value
     let phone = document.getElementById('input-phone').value
+    let inputkerja = document.getElementById('input-kerja').value
     let subject = document.getElementById('input-subject').value
     let message = document.getElementById('input-message').value
 
@@ -12,31 +13,32 @@ function submitData(){
 
     // Bisa menggunakan cara ini juga
     // variabel untuk menampung tag checkbox yang di ceklis
-    let skillHtml =  document.getElementById('html').checked
-    let skillCss =  document.getElementById('css').checked
+    let developer =  document.getElementById('developer').checked
+    let it_support =  document.getElementById('it_support').checked
     
     // kondisi untuk mengecek apakah checkbox di ceklis, kalau di ceklis maka tampilkan/ambil valuenya
-    if (skillHtml) {
-        skillHtml = (document.getElementById('html').value);
+    if (developer) {
+        developer = (document.getElementById('developer').value);
         
     // jika tidak di ceklis maka tampilkan string kosong 
     } else {
-        skillHtml = ""
+        developer = ""
     } 
     
-    if (skillCss) {
-        skillCss = (document.getElementById('css').value);
+    if (it_support) {
+       it_support= (document.getElementById('it_support').value);
     } else {
-        skillCss = ""
+        it_support = ""
     }
 
     console.log(name);
     console.log(email);
     console.log(phone);
+    console.log(inputkerja);
     console.log(subject);
     console.log(message);
-    console.log(skillHtml);
-    console.log(skillCss);
+    console.log(developer);
+    console.log(it_support);
 
 
 
@@ -54,15 +56,18 @@ function submitData(){
     } else if (message == '') {
         return alert("Message Wajib diisi")
     } 
-    else if (skillCss  == '') {
-        return alert("Message Wajib diisi")
+    else if (inputkerja == '') {
+        return alert("pengalamann kerja Wajib diisi")
+    } 
+    else if (it_support == '') {
+        return alert("skill Wajib diisi")
     } 
 
     let emailReceiver = 'samsul@mail.com'
 
     let a = document.createElement('a')
 
-    a.href = `mailto: ${emailReceiver}?subject=${subject}&body=Hallo my name ${name} ${message} contact me ${phone} send CV ${email} requirment skill ${skillHtml} ${skillCss}`
+    a.href = `mailto: ${emailReceiver}?subject=${subject}&body=Hallo my name ${name} ${message} contact me ${phone} send CV ${email} requirment skill ${developer} ${it_support} pengalaman kerja ${inputkerja}`
     a.click()
 
     // <a href="mailto:samsul@mail.com?subject=Test Subject&body=Hallo B30">Send Mail</a>
@@ -77,8 +82,9 @@ function submitData(){
         phone: phone,
         subject: subject,
         message: message,
-        skillHtml: skillHtml,
-        skillCss: skillCss
+        developer: developer,
+        it_support: it_support,
+        inputkerja: inputkerja
     }
 
     console.log(dataObject);
