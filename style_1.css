@@ -96,6 +96,7 @@ nav .right a:hover{
     text-align: center;
     /* margin: 10px 0; */
     text-align: center;
+    padding-top: 15%;
 }
 
 .container .section .left div{
@@ -153,6 +154,7 @@ nav .right a:hover{
     flex: 70%;
     padding-left: 80px;
     text-align: justify;
+    padding-top: 15%;
 }
 
 .section .right .skill-container{

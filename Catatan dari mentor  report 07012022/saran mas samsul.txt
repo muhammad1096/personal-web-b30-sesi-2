@@ -1,0 +1,2 @@
+1. card kurang ke bawah 
+2. si form di perbaiki di js sinkronkan.
