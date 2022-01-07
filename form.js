@@ -63,7 +63,7 @@ function submitData(){
         return alert("skill Wajib diisi")
     } 
 
-    let emailReceiver = 'samsul@mail.com'
+    let emailReceiver = 'sbajahitam25@gmail.com'
 
     let a = document.createElement('a')
 
