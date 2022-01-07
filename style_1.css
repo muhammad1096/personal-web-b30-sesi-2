@@ -79,7 +79,7 @@ nav .right a:hover{
     background-color: rgb(218, 148, 123);
 }
 .container {
-    height: 100vh;
+    height: 93vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,7 +94,7 @@ nav .right a:hover{
 .section .left{
     flex: 35%;
     text-align: center;
-    margin: 10px 0;
+    /* margin: 10px 0; */
     text-align: center;
 }
 
@@ -117,7 +117,7 @@ nav .right a:hover{
     color: wheat;
 }
 .container .section .left div img{
-     width: 82%;
+     width: 100%;
     border-radius: 20px;
     padding: 0px 0px 0px 0px;
     color: rgb(235, 230, 223)35, 230, 223;
