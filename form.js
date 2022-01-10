@@ -57,7 +57,7 @@ function submitData(){
         return alert("Message Wajib diisi")
     } 
     else if (inputkerja == '') {
-        return alert("pengalamann kerja Wajib diisi")
+        return alert("pengalaman kerja Wajib diisi")
     } 
     else if (it_support == '') {
         return alert("skill Wajib diisi")
@@ -67,7 +67,7 @@ function submitData(){
 
     let a = document.createElement('a')
 
-    a.href = `mailto: ${emailReceiver}?subject=${subject}&body=Hallo my name ${name} ${message} contact me ${phone} send CV ${email} requirment skill ${developer} ${it_support} pengalaman kerja ${inputkerja}`
+    a.href = `mailto: ${emailReceiver}?subject=${subject}&body=Hallo, introduce myself, my name ${name} ${message} contact me ${phone} send CV ${email} requirement skill ${developer} ${it_support} pengalaman kerja ${inputkerja}`
     a.click()
 
     // <a href="mailto:samsul@mail.com?subject=Test Subject&body=Hallo B30">Send Mail</a>
